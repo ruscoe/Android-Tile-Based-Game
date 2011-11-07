@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tile Game Example</string>
+    
+    <string name="about_text">Tile game example using Android canvas.</string>
+    <string name="about_open_source">The code used to create this example is open-source:</string>
+    <string name="about_link">http://ruscoe.org/code/</string>
+    
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    
+    <string name="about_shortcut">a</string>
+    <string name="exit_shortcut">x</string>
+</resources>
