@@ -9,7 +9,7 @@ This code provides a simple way to build maps based on your own tiles, player mo
 
 This code is used in the Android game Radius:
 
-ruscoe.org/android/#radius
+http://ruscoe.org/android/radius/
 
 Important Files
 ---------------
