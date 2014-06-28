@@ -278,7 +278,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback
 
 				drawControls(canvas);
 
-				canvas.drawText(mLastStatusMessage, 30, 30, mUiTextPaint);
+				canvas.drawText(mLastStatusMessage, 30, 50, mUiTextPaint);
 			}
 		}
 
