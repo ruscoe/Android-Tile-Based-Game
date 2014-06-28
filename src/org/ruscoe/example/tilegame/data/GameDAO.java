@@ -106,7 +106,7 @@ public class GameDAO extends SQLiteOpenHelper
 	 */
 	private static final String[] POPULATE_TABLE_GAME_LEVEL_TILES = {
 		"INSERT INTO " + GameLevelTileData.TABLE_NAME + " VALUES "
-		+ "(null,1,1,3,3,\""
+		+ "(null,1,1,7,3,\""
 				// 1  2  3  4  5  6  7  8  9  10 11 12 13 14 15
 		/* 1  */+ "01,01,01,01,01,01,01,01,01,01,01,01,01,01,01" + GameLevelTileData.TILE_DATA_LINE_BREAK
 		/* 2  */+ "01,03,03,03,03,03,03,03,03,03,03,03,03,03,01" + GameLevelTileData.TILE_DATA_LINE_BREAK
