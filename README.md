@@ -1,18 +1,22 @@
-Android Tile-Based Game
-=======================
-
-Author: Dan Ruscoe (dan@ruscoe.org).
+# Android Tile-Based Game
 
 This is an example of a basic tile-based, 2D game using Android's Canvas. It can be used as a base for your own games.
 
 This code provides a simple way to build maps based on your own tiles, player movement / tracking and detection of collisions with any number of different tile types.
 
-This code is used in the Android game Radius:
+This code is used in the Android game [Radius](http://ruscoe.org/projects/radius/).
 
-http://ruscoe.org/android/radius/
+## Requirements
 
-Important Files
----------------
+* [Android SDK](http://developer.android.com/sdk/index.html)
+* Android 2.2 platform
+
+## Usage
+
+* Import the Android Tile-Based Game project into Eclipse.
+* Build the project as an Android application.
+
+## Important Files
 
 *src/org/ruscoe/example/tilegame/data/GameDAO.java*
 
@@ -26,9 +30,6 @@ This generates the game view and handles all game logic and user input.
 
 The function *parseGameLevelData* shows how the tile and map data in the database is translated into a playable game level.
 
-License
--------
+## License
 
-Released under the The MIT License.
-
-http://www.opensource.org/licenses/mit-license.php
+Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
