@@ -261,22 +261,25 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback
 		{
 			centerView();
 
-			canvas.drawBitmap(mBackgroundImage, 0, 0, null);
-			
-			if (!updatingGameTiles)
+			if (canvas != null)
 			{
-				drawGameTiles(canvas);
-			}
+				canvas.drawBitmap(mBackgroundImage, 0, 0, null);
 
-			if (mPlayerUnit != null)
-			{
-				canvas.drawBitmap(mPlayerUnit.getBitmap(), mPlayerUnit.getX(),
+				if (!updatingGameTiles)
+				{
+					drawGameTiles(canvas);
+				}
+
+				if (mPlayerUnit != null)
+				{
+					canvas.drawBitmap(mPlayerUnit.getBitmap(), mPlayerUnit.getX(),
 						mPlayerUnit.getY(), null);
-			}
+				}
 
-			drawControls(canvas);
-			
-			canvas.drawText(mLastStatusMessage, 30, 30, mUiTextPaint);
+				drawControls(canvas);
+
+				canvas.drawText(mLastStatusMessage, 30, 30, mUiTextPaint);
+			}
 		}
 
 		/**
