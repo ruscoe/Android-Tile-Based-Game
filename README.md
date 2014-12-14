@@ -20,13 +20,17 @@ This code is used in the Android game [Radius](http://ruscoe.org/projects/radius
 
 ## Important Files
 
-```src/org/ruscoe/example/tilegame/data/GameDAO.java```
+```
+src/org/ruscoe/example/tilegame/data/GameDAO.java
+```
 
 This file populates the games database with tile and map data.
 
 The file contains an example of custom tile definitions and how to use those tiles to build custom maps for your game's levels.
 
-```src/org/ruscoe/example/tilegame/GameView.java```
+```
+src/org/ruscoe/example/tilegame/GameView.java
+```
 
 This generates the game view and handles all game logic and user input.
 
