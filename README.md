@@ -4,8 +4,6 @@ This is an example of a basic tile-based, 2D game using Android's Canvas. It can
 
 This code provides a simple way to build maps based on your own tiles, player movement / tracking and detection of collisions with any number of different tile types.
 
-This code is used in the Android game [Radius](http://ruscoe.org/projects/radius/).
-
 ![Android Tile-Based Game screen shot](http://ruscoe.org/assets/images/projects/android-tile-game.png)
 
 ## Requirements
