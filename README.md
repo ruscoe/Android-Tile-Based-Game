@@ -3,7 +3,7 @@
 This is an example of a basic tile-based, 2D game using Android's Canvas. It can be used as a base for your own games.
 
 This code provides a simple way to build maps based on your own tiles, player movement / tracking and detection of collisions with any number of different tile types.
-
+##mvc design pattern
 ![Android Tile-Based Game screen shot](http://ruscoe.org/assets/images/misc/github/android-tile-game.png)
 
 ## Requirements
